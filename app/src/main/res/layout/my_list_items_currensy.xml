@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bank name"
+        android:id="@+id/bankName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="currency"
+        android:id="@+id/currency"
+
+        android:layout_below="@+id/bankName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="bay"
+        android:id="@+id/bay"
+        android:layout_below="@+id/bankName"
+        android:layout_toEndOf="@+id/currency"
+        android:layout_toRightOf="@+id/currency" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="sell"
+        android:id="@+id/sell"
+        android:layout_alignTop="@+id/bay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_toRightOf="@+id/bay"
+        android:layout_toEndOf="@+id/bay" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exchange</string>
+    <string name="show_all">show all</string>
+    <string name="choose_bank">choose bank</string>
+    <string name="list_text">List Text</string>
+    <string name="search">Search</string>
+</resources>
